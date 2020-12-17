@@ -4,3 +4,24 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+#signature{
+    width: 300px;
+}
+
+/* Grid  */
+
+.grid-conteiner{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0;
+    background-color: #000;
+}
+.grid-conteiner > div{
+    background-color: #fff;
+    text-align: center;
+}
+.iten1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
